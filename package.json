@@ -1,0 +1,17 @@
+{
+  "name": "throttling-algo",
+  "version": "0.1.0",
+  "description": "A solution for the throttling problem",
+  "scripts": {
+    "test": "jest",
+    "start:input1": "node ./src/index.js ./data/input1",
+    "start:input2": "node ./src/index.js ./data/input2",
+    "start": "node ./src/index.js"
+  },
+  "devDependencies": {
+    "jest": "^26.6.3"
+  },
+  "dependencies": {
+    "yargs": "^15.4.1"
+  }
+}
